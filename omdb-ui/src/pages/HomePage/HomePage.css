@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Caveat&display=swap);
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15rem;
+}
+
+.text{
+    color: #C5EFCB;
+    font-family: 'Caveat', cursive;
+    font-size: 7rem;
+}
+
+.addShadow{
+    text-shadow: 2px 2px black !important;
+}
+
+.btn1{
+    background-color: rgba(16, 194, 16, 0.829);
+    color: white;
+}
+
+.btn1:hover{
+    background-color: rgba(16, 194, 16, 0.3);
+}

@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+.remove-padding {
+    padding: 0px;
+}
+
+body{
+    background-image: url(./images/moviebg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

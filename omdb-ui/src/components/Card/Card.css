@@ -1,0 +1,11 @@
+.card{
+    margin: 15px auto 15px;
+    width: 19rem;
+    color:  rgba(69, 123, 157, 0.9);
+    box-shadow: 0px 0px 20px 1px black !important;
+}
+
+.card-title{
+    text-align: center;
+    color: white;
+}
