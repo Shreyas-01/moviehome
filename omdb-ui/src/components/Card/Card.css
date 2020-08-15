@@ -1,11 +1,45 @@
 .card{
+    background-color: rgb(3, 7, 30);
+    border-radius: 4px;
     margin: 15px auto 15px;
-    width: 19rem;
-    color:  rgba(69, 123, 157, 0.9);
-    box-shadow: 0px 0px 20px 1px black !important;
+    width: 21rem;
+    color:  #028090;
+    box-shadow: 0px 0px 20px 1px grey !important;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 20px 2px grey !important;
+}
+
+.cardImage{
+    width:21rem;
+    height: 24rem;
+    overflow: hidden;
+    border-radius: 4px 4px 0 0;
+}
+
+.cardImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 500ms ease-in-out;
+    transform-origin: center;
+    
+}
+.cardImage:hover img{
+    transform: scale(1.03);
+}
+
+hr{
+    border-top: 1px solid white;
 }
 
 .card-title{
     text-align: center;
+    color: white;
+}
+
+.detailsbtn{
+    background-color: #028090 !important;
     color: white;
 }

@@ -19,4 +19,10 @@ h5{
 
 .list li{
     margin: 1rem 0;
+    list-style: none;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-evenly;
 }

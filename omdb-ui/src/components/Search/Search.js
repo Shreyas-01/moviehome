@@ -11,7 +11,7 @@ return (
         <div className="input-group mb-3 col-4">
         <input type="text" className="search form-control" placeholder="Search your movie here" value={value} onChange={handleChange}/>
         <div className="input-group-append">
-            <button className="btn btn2 btn-outline-danger" type="button" onClick={handleSubmit}>Search</button>
+            <button className="btn searchbtn btn-outline-danger" type="button" onClick={handleSubmit}>Search</button>
         </div>
         </div> 
     </div>

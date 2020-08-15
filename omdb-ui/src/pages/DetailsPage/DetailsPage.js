@@ -29,21 +29,28 @@ export default function DetailsPage() {
             <h5 className="text-center">{movie.Title}</h5>
             <ul className="list">
                 <li>Director(s): {movie.Director}</li>
+                <hr></hr>
                 <li>Actors: {movie.Actors}</li>
+                <hr></hr>
                 <li>Production: {movie.Production}</li>
+                <hr></hr>
                 <li>Writer(s): {movie.Writer}</li>
+                <hr></hr>
                 <li>Plot: {movie.Plot}</li>
+                <hr></hr>
                 <li>Runtime: {movie.Runtime}</li>
+                <hr></hr>
                 <li>Age rating: {movie.Rated}</li>
-                <div className="row">
-                    <div><li>Ratings:</li></div>
-                    <div ><ul>
+                <hr></hr>
+                <li>Ratings:</li>
+                <ul className="ratings">
                     <li>Metacritic: {mt}</li>
                     <li>Rotten Tomatoes: {rt}</li>
                     <li>imdb: {movie.imdbRating}</li>
-                    </ul></div>
-                </div>
+                </ul>
+                <hr></hr>
                 <li>Awards won: {movie.Awards}</li>
+                <hr></hr>
                 <li>Box-office collection: {movie.BoxOffice}</li>
             </ul>
         </div>
